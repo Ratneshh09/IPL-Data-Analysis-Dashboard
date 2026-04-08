@@ -23,6 +23,12 @@ This project provides a comprehensive analysis of the Indian Premier League (IPL
     * `matches_clean.csv`: Cleaned match-level data (2008-2024).
     * `deliveries.csv`: Ball-by-ball performance data.
 * `IPL_Dashboard.png`: A high-resolution screenshot of the final dashboard.
+  
+* ## 🐍 Python Data Processing
+Before building the Power BI dashboard, I used Python for Data Cleaning and Exploratory Data Analysis (EDA):
+* **Library:** Pandas, NumPy
+* **Tasks:** Handled missing values in `city` and `player_of_match`, and formatted dates for the 2008-2024 timeline.
+* **Script:** [View Cleaning Script](./notebooks/data_cleaning.ipynb)
 
 ## 🚀 How to View the Project
 1.  **Download the .pbix file:** Clone this repository or download `IPL_Dashboard.pbix`.
